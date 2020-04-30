@@ -1,5 +1,7 @@
 # Sparse Coding (Olshausen & Field, 1996) Model
 
+LCA (locally competitive algorithm)
+
 # Requirement
 - `Python >= 3.5`
 - `numpy`, `matplotlib`, `scipy`, `opencv`, `tqdm`
