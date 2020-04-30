@@ -4,7 +4,7 @@ import numpy as np
 
 class OlshausenField1996Model:
     def __init__(self, num_inputs, num_units, batch_size,
-                 lr_r=1e-2, lr_Phi=1e-2, lmda=1e-3):
+                 lr_r=1e-2, lr_Phi=1e-2, lmda=5e-3):
         self.lr_r = lr_r # learning rate of r
         self.lr_Phi = lr_Phi # learning rate of Phi
         self.lmda = lmda # regularization parameter
